@@ -1,0 +1,76 @@
+body 
+{
+ background-color: whitesmoke;
+}
+
+.box1{
+        margin-top: 100px;
+        border: 3px solid grey;
+        margin-left: 42%;
+        width:300px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.boxtext{
+    align-content: center;
+    color: rgb(226, 156, 109);
+    font-size: 30px;
+    font-family: monospace;
+    justify-items: center;
+}
+
+h3{
+text-align: center;  
+font-family: Arial, Helvetica, sans-serif;  
+}
+
+.container{
+    text-align: center;
+}
+
+.row{
+text-align: center;
+margin-top: 5px;
+}
+
+button{
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    background: rgb (214,214,214);
+    box-shadow: 5px 5px 10px #474343, -5px -5px -10px #eeebeb;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    transform: scale(1.1);
+    color: tomato;
+    font-size: 23px;
+}
+
+
+.Delete{
+    width:115px;
+    height:70px;
+    background: red;
+    text-align: center;
+
+}
+
+.Space{
+    width:12em;
+    height:70px;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+.Custom{
+    width:6em;
+    height:70px;
+    border-radius: 10%;
+}
